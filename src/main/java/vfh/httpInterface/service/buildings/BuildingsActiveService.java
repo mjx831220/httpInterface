@@ -53,7 +53,7 @@ public class BuildingsActiveService {
 	
     public static final String DEFAULT_USER_UPLOAD_PORTRAIT_PATH2 =  "/upload_buildings/" ;
 	
-	@Autowired
+	@Autowired 
 	private BuildingActiveMapper buildingActiveMapper;
 	@Autowired
 	private ResourseDao resourseDao;  

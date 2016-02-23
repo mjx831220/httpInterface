@@ -484,7 +484,7 @@ public class BuildingsHouseService {
 				// PortraitSize.MIDDLE);
 				// scaleImage(originalPicPath, portraitPath,
 				// PortraitSize.SMALL);
-			}
+			} 
 		} 
 
 		if (null != file31 && !file31.isEmpty()) { // 地产宣传图
