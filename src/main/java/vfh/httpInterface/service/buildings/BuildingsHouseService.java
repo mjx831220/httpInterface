@@ -479,7 +479,7 @@ public class BuildingsHouseService {
 				// File.separator + "huxingtu" + File.separator+ shi +
 				// File.separator;
 				// String originalPicPath = uploadfile.getAbsolutePath();
-				//
+				// 
 				// scaleImage(originalPicPath, portraitPath,
 				// PortraitSize.MIDDLE);
 				// scaleImage(originalPicPath, portraitPath,
