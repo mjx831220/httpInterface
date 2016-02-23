@@ -485,7 +485,7 @@ public class BuildingsHouseService {
 				// scaleImage(originalPicPath, portraitPath,
 				// PortraitSize.SMALL);
 			}
-		}
+		} 
 
 		if (null != file31 && !file31.isEmpty()) { // 地产宣传图
 			String uuid = UUID.randomUUID().toString();

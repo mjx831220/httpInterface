@@ -56,7 +56,7 @@ public class BuildingsActiveService {
 	@Autowired
 	private BuildingActiveMapper buildingActiveMapper;
 	@Autowired
-	private ResourseDao resourseDao;
+	private ResourseDao resourseDao; 
 	@Autowired
 	private ResourceService resourceService;
 	
