@@ -47,7 +47,7 @@ import vfh.httpInterface.service.resource.ResourceService;
 @Transactional
 public class BuildingsActiveService {
 	/**
-     * 活动图存放目录
+     * 活动图存放目录 
      */
     public static final String DEFAULT_USER_UPLOAD_PORTRAIT_PATH = "./upload_buildings/" ;
 	
