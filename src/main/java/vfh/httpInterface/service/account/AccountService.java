@@ -117,7 +117,6 @@ public class AccountService implements InitializingBean{
 
         Md5Hash md5Hash = new Md5Hash(entity.get("password"));
         entity.put("password", md5Hash.toHex());
-
         userDao.insert(entity);
 
         if (CollectionUtils.isNotEmpty(groupIds)) {
@@ -184,7 +183,6 @@ public class AccountService implements InitializingBean{
         Map<String, Object> entity = SessionVariable.getCurrentSessionVariable().getUser();
 
         File file = new File(DEFAULT_USER_UPLOAD_PORTRAIT_PATH + entity.get("id") + File.separator);
-
         if (!file.exists() || !file.isDirectory()) {
             file.deleteOnExit();
             file.mkdirs();
@@ -192,7 +190,6 @@ public class AccountService implements InitializingBean{
 
         String portraitPath = file.getAbsolutePath() + File.separator;
         String originalPicPath = portraitPath + PortraitSize.BIG.getName();
-
         IOUtils.copy(is, new FileOutputStream(originalPicPath));
 
         scaleImage(originalPicPath, portraitPath, PortraitSize.MIDDLE);

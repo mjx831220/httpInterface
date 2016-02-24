@@ -177,6 +177,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("update-portrait")
     public Map<String, Object> updatePortrait(HttpServletRequest request) throws IOException {
+
         accountService.updateCurrentPortrait(request.getInputStream());
 
         Map<String, Object> result = Maps.newHashMap();
