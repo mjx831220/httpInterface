@@ -1,7 +1,7 @@
 function getSubList(pid,id,obj){
 	obj.html("");
 	obj.val("");
-	obj.append("<option>--ÇëÑ¡Ôñ--</option>");
+	obj.append("<option>--è¯·é€‰æ‹©--</option>");
 	if(!pid){
 		return;
 	}
@@ -27,7 +27,7 @@ function getSubList(pid,id,obj){
 			
 		},
 		error:function(data){
-			alert("ÍøÂç´íÎó");
+			alert("ç½‘ç»œé”™è¯¯");
 		}
 	});
 }
